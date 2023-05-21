@@ -28,7 +28,6 @@ function App() {
 
   React.useEffect(() => {
     if (recentRaceData) {
-      console.log("recentRaceData:", recentRaceData);
       const raceIds = recentRaceData?.results?.map((r) => r.id);
       fetchRaceDetails(raceIds)
         .then((raceDetails) => setRaceDetails(raceDetails), setIsLoading(false))
