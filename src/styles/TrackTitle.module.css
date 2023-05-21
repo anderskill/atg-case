@@ -1,0 +1,10 @@
+.trackTitleContainer {
+  background: var(--ATGDarkBlue);
+  margin-bottom: 1rem;
+}
+
+.trackTitle {
+  margin: 0;
+  padding: 1rem;
+  color: var(--ATGWhite);
+}
